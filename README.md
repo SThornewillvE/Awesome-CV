@@ -1,99 +1,46 @@
-<h1 align="center">
-  <a href="https://github.com/posquit0/Awesome-CV" title="AwesomeCV Documentation">
-    <img alt="AwesomeCV" src="https://github.com/posquit0/Awesome-CV/raw/master/icon.png" width="200px" height="200px" />
-  </a>
-  <br />
-  Awesome CV
-</h1>
+# Simons CV
 
-<p align="center">
-  LaTeX template for your outstanding job application
-</p>
+## Description
 
-<div align="center">
-  <a href="https://circleci.com/gh/posquit0/Awesome-CV">
-    <img alt="CircleCI" src="https://circleci.com/gh/posquit0/Awesome-CV.svg?style=shield" />
-  </a>
-  <a href="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf">
-    <img alt="Example Resume" src="https://img.shields.io/badge/resume-pdf-green.svg" />
-  </a>
-  <a href="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/cv.pdf">
-    <img alt="Example CV" src="https://img.shields.io/badge/cv-pdf-green.svg" />
-  </a>
-  <a href="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf">
-    <img alt="Example Coverletter" src="https://img.shields.io/badge/coverletter-pdf-green.svg" />
-  </a>
-</div>
+This is the CV that I want to use for my upcoming job hunt.
 
-<br />
+This is a template which was found on [overleaf.com](https://www.overleaf.com/latex/templates/awesome-cv/dfnvtnhzhhbm),
+I have changed it to fit my own purposes but the general format is still rather
+close to the original.
 
-## <a name="what-is-awesomecv"></a>What is Awesome CV?
+What I like about this template is the use of modern fonts and being able to add
+social media links into the headder. From my research listening to recruiters and
+hiring managers for data scientists is that they really like being able to see your
+work.
 
-**Awesome CV** is LaTeX template for a **CV(Curriculum Vitae)**, **Résumé** or **Cover Letter** inspired by [Fancy CV](https://www.sharelatex.com/templates/cv-or-resume/fancy-cv). It is easy to customize your own template, especially since it is really written by a clean, semantic markup.
+The rest of the CV has a very crisp and clean style which is easy to navigate and
+quickly draw information from, although there are several design choices that I
+would have made differently.
 
+  * It's clear that the original Author (Park) has a lot of experience and has made his font very small in order to accomodate for his jam-packed CV. It means people need to strain their eyes to read the text, which is uncomfortable and should be avoided if possible.
+  * Coloring the first 3 letters of a section title does not add any extra information
+  and is edgy for the sake of it, I've simply colored the whole word to help draw attention to the headders without prompting the reader to ask why only
+  the first three notes are colored. (A good alternative to this would be to just color the first letter as well.)
+  * My name and my website length is a little longer and so I've had to change the
+  header width in order to make sure everything stays on one line when adding my
+  picture. (Living in central europe means that people often prefer having a picture
+  rather than not, such as in the UK.)
+  * Having less experience (relative to Park) means that I've had to cut some sections from the original and add others.
 
-## <a name="preview"></a>Preview
+## Important files & Installation Notes
 
-#### Résumé
+  * This file was compiled using XeLaTeX.
+  * Changes to the formatting of the file can be made in the awesome-cv.cls class 
+  file.
+  * Files used for sections of the CV can be found in the CV folder, the cv.tex.
+  file then inputs these files and compiles them together.
+  * I have not made any changes to the coverletter.tex file yet, changes will come
+  at a later date.
 
-You can see [PDF](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf)
+## References and Citations
 
-| Page. 1 | Page. 2 |
-|:---:|:---:|
-| [![Résumé](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume-0.png)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf)  | [![Résumé](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume-1.png)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf) |
-
-#### Cover Letter
-
-You can see [PDF](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf)
-
-| Without Sections | With Sections |
-|:---:|:---:|
-| [![Cover Letter(Traditional)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter-0.png)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf)  | [![Cover Letter(Awesome)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter-1.png)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf) |
-
-
-## <a name="quick-start">Quick Start
-
-* [**Edit Résumé on OverLeaf.com**](https://www.overleaf.com/latex/templates/awesome-cv/tvmzpvdjfqxp)
-* [**Edit Résumé on ShareLaTeX.com**](https://www.sharelatex.com/templates/cv-or-resume/awesome-cv)
-* [**Edit Cover Letter on OverLeaf.com**](https://www.overleaf.com/latex/templates/awesome-cv-cover-letter/pfzzjspkthbk)
-* [**Edit Cover Letter on ShareLaTeX.com**](https://www.sharelatex.com/templates/cover-letters/awesome-cv-cover-letter)
-
-**_Note:_ Above services do not guarantee up-to-date source code of Awesome CV**
-
-
-## <a name="how-to-use">How to Use
-
-#### Requirements
-
-A full TeX distribution is assumed.  [Various distributions for different operating systems (Windows, Mac, \*nix) are available](http://tex.stackexchange.com/q/55437) but TeX Live is recommended.
-You can [install TeX from upstream](http://tex.stackexchange.com/q/1092) (recommended; most up-to-date) or use `sudo apt-get install texlive-full` if you really want that.  (It's generally a few years behind.)
-
-#### Usage
-
-At a command prompt, run
-
-```bash
-$ xelatex {your-cv}.tex
-```
-
-This should result in the creation of ``{your-cv}.pdf``
-
-
-## <a name="credit">Credit
-
-[**LaTeX**](http://www.latex-project.org) is a fantastic typesetting program that a lot of people use these days, especially the math and computer science people in academia.
-
-[**LaTeX FontAwesome**](https://github.com/furl/latex-fontawesome) is bindings for FontAwesome icons to be used in XeLaTeX.
-
-[**Roboto**](https://github.com/google/roboto) is the default font on Android and ChromeOS, and the recommended font for Google’s visual language, Material Design.
-
-[**Source Sans Pro**](https://github.com/adobe-fonts/source-sans-pro) is a set of OpenType fonts that have been designed to work well in user interface (UI) environments.
-
-
-## <a name="contact">Contact
-
-You are free to take my `.tex` file and modify it to create your own resume. Please don't use my resume for anything else without my permission, though!
-
-If you have any questions, feel free to join me at [`#posquit0` on Freenode](irc://irc.freenode.net/posquit0) and ask away. Click [here](https://kiwiirc.com/client/irc.freenode.net/posquit0) to connect.
-
-Good luck!
+  * Original Author:
+    * Name: Claud D. Park
+    * email: posquit0.bj@gmail.com
+    * [github](https://github.com/posquit0/Awesome-CV)
+    * [website](http://www.posquit0.com)

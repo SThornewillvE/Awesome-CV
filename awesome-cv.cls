@@ -353,7 +353,6 @@
 % Defines a message of opening for letter (cover letter only)
 % Usage: \letteropening{<message>}
 \newcommand*{\letteropening}[1]{\def\@letteropening{#1}}
-
 % Defines a message of closing for letter (cover letter only)
 % Usage: \letterclosing{<message>}
 \newcommand*{\letterclosing}[1]{\def\@letterclosing{#1}}
@@ -428,7 +427,7 @@
     \setlength{\headertextwidth}{\textwidth}
     \setlength{\headerphotowidth}{0cm}
   }{%
-    \setlength{\headertextwidth}{0.76\textwidth}
+    \setlength{\headertextwidth}{0.78\textwidth}
     \setlength{\headerphotowidth}{0.24\textwidth}
   }%
   \begin{minipage}[c]{\headerphotowidth}%

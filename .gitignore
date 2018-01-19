@@ -22,3 +22,6 @@
 ## Mac OS X metadata files:
 *.DS_Store
 
+### Misc. ###
+## Application files
+final_documents/
